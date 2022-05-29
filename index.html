@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<!-- determina en que idioma estara el html -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200&family=Source+Sans+Pro:wght@300;400&display=swap"
+    rel="stylesheet">
+
+  <!-- etiqueta para icono de solapa -->
+
+  <link rel="shortcut icon" href="./assets/img/favIco.png">
+</head>
+
+<body>
+
+  <header>
+    <!-- colocamos un id al h1 para cuando estemos debajo de todo y apretemos en link "Arriba" nos lleve hace ese h1 -->
+    <img src="./assets/img/favIco.png" alt="Logo">
+    <h1 id="arriba">IN MUSIC WE TRUST</h1>
+    <nav>
+      <!-- Lista desordenada con el menu de navegacion -->
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="./pages/productos.html">Productos</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div>
+    <img id="imgPortada" src="./assets/img/imgPortada/pianoPortada.jpg" alt="">
+  </div>
+
+  <main>
+
+    <!-- cartas con productos  -->
+
+    <div id="divPrincipal" class="card-wrapper">
+      <article id="arti1" class="card">
+        <img src="assets/img/teclado.jpg">
+        <h2 class="h2Style">Teclado 86 octavas</h2>
+        <p class="precioCard">$18.000</p>
+        <p>Teclado yamaha a02-K</p>
+        <p><button>Agregar al carrito</button></p>
+      </article>
+
+      <article id="arti2" class="card">
+        <img src="assets/img/acustica.jpg">
+        <h2 class="h2Style">Guitarra electroacustica</h2>
+        <p class=" precioCard">$80.000</p>
+        <p>Guitarra Fender</p>
+        <p><button>Agregar al carrito </button></p>
+      </article>
+
+      <article id="arti3" class="card">
+        <img src="assets/img/auris.jpg">
+        <h2 class="h2Style">Auriculares de estudio</h2>
+        <p class="precioCard">$16.000</p>
+        <p>Auriculares Bayer-dinamic</p>
+        <p><button>Agregar al carrito</button></p>
+      </article>
+
+      <article id="arti4" class="card">
+        <img src="assets/img/amp-marshall.jpg">
+        <h2 class="h2Style">Amplificador</h2>
+        <p class="precioCard">$50.000</p>
+        <p>Marshall valvular</p>
+        <p><button>Agregar al carrito</button></p>
+      </article>
+
+      <article id="arti5" class="card">
+        <img src="assets/img/criolla.jpg">
+        <h2 class="h2Style">Guitarra criolla</h2>
+        <p class=" precioCard">$30.000</p>
+        <p>Guitarra Parker</p>
+        <p><button>Agregar al carrito</button></p>
+      </article>
+
+      <article id="arti6" class="card">
+        <img src="assets/img/imgPagNuestrosProductos/platillo.png">
+        <h2 class="h2Style">Platillo Zildjian</h2>
+        <p class="precioCard">$19.000</p>
+        <p>Alta calidad y duración</p>
+        <p><button>Agregar al carrito</button></p>
+      </article>
+
+      <!-- carta de mayor tamaño -->
+
+      <article id="cartaGrande" class="korg">
+        <img class="widthImgKorg" src="assets/img/pppp.jpeg">
+        <h2 class="h1Style">Teclado Micro-Korg</h2>
+        <p class="precioCard">$80.000</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas pariatur eveniet adipisci voluptatum
+          expedita.
+          Eaque molestias dolore, nemo et, harum dicta incidunt praesentium quaerat ipsum provident vitae iusto ipsam.
+          At.
+        </p>
+      </article>
+
+      <!-- formulario -->
+
+      <div id="formulario">
+        <form>
+          <div class="contenedorForm">
+            <h2>Suscribite, recibi noticias de ofertas y demas novedades!</h2>
+          </div>
+          <div class="contenedorForm">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="contenedorForm">
+            <input type="button" value="Enviar">
+          </div>
+        </form>
+      </div>
+
+      <!-- footer -->
+
+      <div id="footerIndex">
+        <footer class="distribucion-footer">
+          <div class="footer-left">
+            <div class="footer-links">
+              <a class="aSizequeriemobile" href="./pages/contacto.html">Contacto</a>
+              <a class="aSizequeriemobile" href="#arriba">Arriba</a>
+            </div>
+            <p>
+              In Music We Trust &copy; 2022
+            </p>
+          </div>     
+        </footer>     
+      </div>
+    </div>
+  </main>
+
+  <br>
+
+  <!-- formulario newsletter -->
+
+  <!-- <section>
+
+    <form id="formulario">
+
+      <div class="contenedorForm">
+        <h2>Suscribite, recibi noticias de ofertas y demas novedades!</h2>
+      </div>
+      <div class="contenedorForm">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="contenedorForm">
+        <input type="button" value="Enviar">
+      </div>
+    </form>
+
+  </section> -->
+
+  <!-- <br> -->
+
+  <!-- barra divisora para separar el contenido de la pagina, del footer -->
+
+  <!-- <hr> -->
+
+  <!-- footer  -->
+
+  <!-- <footer id="footerIndex" class="distribucion-footer">
+
+    <div class="footer-left">
+      <div class="footer-links">
+        <a href="./pages/contacto.html">Contacto</a>
+        <a href="#arriba">Arriba</a>
+      </div>
+      <p>
+        In Music We Trust &copy; 2022
+      </p>
+    </div>
+
+  </footer> -->
+
+
+</body>
+
+</html>
