@@ -9,6 +9,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio</title>
+
+  <!-- links de bootstrap -->
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +35,7 @@
   <header>
     <!-- colocamos un id al h1 para cuando estemos debajo de todo y apretemos en link "Arriba" nos lleve hace ese h1 -->
     <img src="./assets/img/favIco.png" alt="Logo">
-    <h1 id="arriba">IN MUSIC WE TRUST</h1>
+    <h1 id="arriba" class="h1Index">IN MUSIC WE TRUST</h1>
     <nav>
       <!-- Lista desordenada con el menu de navegacion -->
       <ul>
@@ -38,16 +46,38 @@
     </nav>
   </header>
 
-  <div>
-    <img id="imgPortada" src="./assets/img/imgPortada/pianoPortada.jpg" alt="">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/imgPortada/pianoPortada.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/imgPortada/personaPortada.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/imgPortada/ukelelesPortada.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
+  <!-- <div>
+    <img id="imgPortada" src="./assets/img/imgPortada/pianoPortada.jpg" alt="">
+  </div> -->
 
   <main>
 
     <!-- cartas con productos  -->
 
     <div id="divPrincipal" class="card-wrapper">
-      <article id="arti1" class="card cardScale">
+      <article id="arti1" class="carta cardScale">
         <img src="assets/img/teclado.jpg">
         <h2 class="h2Style">Teclado 86 octavas</h2>
         <p class="precioCard">$18.000</p>
@@ -55,7 +85,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti2" class="card cardScale">
+      <article id="arti2" class="carta cardScale">
         <img src="assets/img/acustica.jpg">
         <h2 class="h2Style">Guitarra electroacustica</h2>
         <p class=" precioCard">$80.000</p>
@@ -63,7 +93,7 @@
         <p><button>Agregar al carrito </button></p>
       </article>
 
-      <article id="arti3" class="card cardScale">
+      <article id="arti3" class="carta cardScale">
         <img src="assets/img/auris.jpg">
         <h2 class="h2Style">Auriculares de estudio</h2>
         <p class="precioCard">$16.000</p>
@@ -71,7 +101,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti4" class="card cardScale">
+      <article id="arti4" class="carta cardScale">
         <img src="assets/img/amp-marshall.jpg">
         <h2 class="h2Style">Amplificador</h2>
         <p class="precioCard">$50.000</p>
@@ -79,7 +109,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti5" class="card cardScale">
+      <article id="arti5" class="carta cardScale">
         <img src="assets/img/criolla.jpg">
         <h2 class="h2Style">Guitarra criolla</h2>
         <p class=" precioCard">$30.000</p>
@@ -87,8 +117,8 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti6" class="card cardScale">
-        <img src="assets/img/imgPagNuestrosProductos/platillo.png">
+      <article id="arti6" class="carta cardScale">
+        <img src="assets/img/platillo184.png">
         <h2 class="h2Style">Platillo Zildjian</h2>
         <p class="precioCard">$19.000</p>
         <p>Alta calidad y duración</p>

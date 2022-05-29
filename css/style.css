@@ -35,6 +35,18 @@ h1 {
     color: whitesmoke;
 }
 
+.h1Index {
+    display: inline;
+    padding: 0 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5px;
+    color: whitesmoke;
+    margin-bottom: -2px;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 0;
+}
+
 h2 {
     text-align: center;
     font-weight: 100;
@@ -248,7 +260,7 @@ ul li a:hover {
     }
 } */
 
-.card {
+.carta {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     width: 100%;
@@ -256,6 +268,7 @@ ul li a:hover {
     text-align: center;
     font-family: arial;
     background-color: white;
+    height: 70%;
 }
 
 .precioCard {
@@ -263,7 +276,7 @@ ul li a:hover {
     font-size: 22px;
 }
 
-.card button {
+.carta button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -275,7 +288,7 @@ ul li a:hover {
     font-size: 18px;
 }
 
-.card button:hover {
+.carta button:hover {
     opacity: 0.7;
 }
 
