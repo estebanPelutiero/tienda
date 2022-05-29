@@ -176,6 +176,15 @@ ul li a:hover {
     #cartaGrande {
         display: none;
     }
+
+    .cardScale {
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .cardScale:hover {
+        transform: scale(1.03);
+    }
+    
 }
 
 /*----------------------------media querie responsive del index - para CELULAR (480px) - */
@@ -215,12 +224,21 @@ ul li a:hover {
     .aSizequeriemobile {
         font-size: 10px;
     }
+
+    .cardScale {
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .cardScale:hover {
+        transform: scale(1.03);
+    }
+    
 }
 
 
 /*------------------------------------------- animacion carta grande */
 
-@keyframes animacionCarta {
+/* @keyframes animacionCarta {
     0% {
         left: 0px;
     }
@@ -228,7 +246,7 @@ ul li a:hover {
     100% {
         left: 700px;
     }
-}
+} */
 
 .card {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
@@ -298,6 +316,14 @@ ul li a:hover {
 
 .widthImgKorg {
     width: 70%;
+}
+
+.cardScale {
+    transition: all 0.35s ease-in-out;
+}
+
+.cardScale:hover {
+    transform: scale(1.03);
 }
 
 /*----------------------------------------------------- footer */

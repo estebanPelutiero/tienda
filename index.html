@@ -9,6 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +47,7 @@
     <!-- cartas con productos  -->
 
     <div id="divPrincipal" class="card-wrapper">
-      <article id="arti1" class="card">
+      <article id="arti1" class="card cardScale">
         <img src="assets/img/teclado.jpg">
         <h2 class="h2Style">Teclado 86 octavas</h2>
         <p class="precioCard">$18.000</p>
@@ -54,7 +55,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti2" class="card">
+      <article id="arti2" class="card cardScale">
         <img src="assets/img/acustica.jpg">
         <h2 class="h2Style">Guitarra electroacustica</h2>
         <p class=" precioCard">$80.000</p>
@@ -62,7 +63,7 @@
         <p><button>Agregar al carrito </button></p>
       </article>
 
-      <article id="arti3" class="card">
+      <article id="arti3" class="card cardScale">
         <img src="assets/img/auris.jpg">
         <h2 class="h2Style">Auriculares de estudio</h2>
         <p class="precioCard">$16.000</p>
@@ -70,7 +71,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti4" class="card">
+      <article id="arti4" class="card cardScale">
         <img src="assets/img/amp-marshall.jpg">
         <h2 class="h2Style">Amplificador</h2>
         <p class="precioCard">$50.000</p>
@@ -78,7 +79,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti5" class="card">
+      <article id="arti5" class="card cardScale">
         <img src="assets/img/criolla.jpg">
         <h2 class="h2Style">Guitarra criolla</h2>
         <p class=" precioCard">$30.000</p>
@@ -86,7 +87,7 @@
         <p><button>Agregar al carrito</button></p>
       </article>
 
-      <article id="arti6" class="card">
+      <article id="arti6" class="card cardScale">
         <img src="assets/img/imgPagNuestrosProductos/platillo.png">
         <h2 class="h2Style">Platillo Zildjian</h2>
         <p class="precioCard">$19.000</p>
@@ -96,7 +97,7 @@
 
       <!-- carta de mayor tamaño -->
 
-      <article id="cartaGrande" class="korg">
+      <article id="cartaGrande" class="korg" data-aos="fade-up" data-aos-duration="2300">
         <img class="widthImgKorg" src="assets/img/pppp.jpeg">
         <h2 class="h1Style">Teclado Micro-Korg</h2>
         <p class="precioCard">$80.000</p>
@@ -144,49 +145,10 @@
 
   <br>
 
-  <!-- formulario newsletter -->
-
-  <!-- <section>
-
-    <form id="formulario">
-
-      <div class="contenedorForm">
-        <h2>Suscribite, recibi noticias de ofertas y demas novedades!</h2>
-      </div>
-      <div class="contenedorForm">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Email">
-      </div>
-      <div class="contenedorForm">
-        <input type="button" value="Enviar">
-      </div>
-    </form>
-
-  </section> -->
-
-  <!-- <br> -->
-
-  <!-- barra divisora para separar el contenido de la pagina, del footer -->
-
-  <!-- <hr> -->
-
-  <!-- footer  -->
-
-  <!-- <footer id="footerIndex" class="distribucion-footer">
-
-    <div class="footer-left">
-      <div class="footer-links">
-        <a href="./pages/contacto.html">Contacto</a>
-        <a href="#arriba">Arriba</a>
-      </div>
-      <p>
-        In Music We Trust &copy; 2022
-      </p>
-    </div>
-
-  </footer> -->
-
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
