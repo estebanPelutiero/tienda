@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
-    <!-- etiqueta para icono de solapa -->
-
+    
     <link rel="shortcut icon" href="../assets/img/favIco.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +28,7 @@
         <img src="../assets/img/favIco.png" alt="Logo">
         <h1 id="contacto">Contacto</h1>
         <nav>
-            <!-- Lista desordenada con el menu de navegacion -->
+            
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./productos.html">Productos</a></li>
@@ -34,44 +37,43 @@
         </nav>
     </header>
 
-        <main>
-            <div class="centrarForm">
-                <form id="formulario" class="detallesForm bordeForm">
-                    <div id="formContacto">
-                        <h3 id="h3Contacto">Dejanos tus datos y nos contactamos contigo</h3>
-                        <input type="text" placeholder="Nombre">
-                        <input type="text" placeholder="Apellido">
-                        <input type="text" placeholder="E-mail">
-                        <input type="text" placeholder="Escriba aquí su consulta">
-                        <input type="button" value="Enviar">
-                    </div>                  
-                    <div class="centrarMapa">
-                        <iframe id="iframeContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.88453039699!2d-58.38703488524303!3d-34.60708126518213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac5166c4ced%3A0xc0a7bdf2d135e1c2!2sDaiam!5e0!3m2!1ses-419!2sar!4v1653403128716!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>               
-                </form>
-
-                <div class="divDatosContacto">
-                    <div class="alinearDatosContacto">
-                        <p>O comunicate a traves de nuestros portales de atención!</p>
-                    </div>           
-                    <div class="alinearDatosContacto">
-                        <img class="iconSize" src="../assets/img/whatsapp.png">
-                        <p>(03489) - 358832</p>
-                    </div>
-                    <div class="alinearDatosContacto">
-                        <img class="iconSize" src="../assets/img/gmail.png" alt="">
-                        <p>InMusicWeTrust@gmail.com</p>
-                    </div>               
-                </div> 
+        <main>       
+            <div class="h2Contacto container">
+                <h2>Dejanos tus datos y nos contactamos contigo</h2>
             </div>
+            <div class="divFlex">              
+                <div class="mb-3 col-lg-8 col-sm-8 col-xs-12">
+                    
+                    <input type="email" class="form-control inputsMargin" id="exampleFormControlInput1" placeholder="Nombre">
+            
+                    <input type="email" class="form-control inputsMargin" id="exampleFormControlInput1" placeholder="Apellido">
+                
+                    <input type="email" class="form-control inputsMargin" id="exampleFormControlInput1" placeholder="E-mail">
+                
+                    <textarea class="form-control inputsMargin" id="exampleFormControlTextarea1" placeholder="escriba aquí su consulta" rows="5"></textarea>
+    
+                    <button type="button" class="btn botonContacto estiloBtn btn-dark btn-size">Enviar</button>
+                </div>    
+            </div>
+
+            <div class="h2Contacto">
+                <h2>o a traves de nuestros portales de atencion</h2>
+            </div>
+
+            <div class="alinearDatosContacto">
+                <img class="iconSize" src="../assets/img/whatsapp.png">
+                <p>(03489) - 317756</p>
+            </div>
+            <div class="alinearDatosContacto">
+                <img class="iconSize" src="../assets/img/gmail.png">
+                <p>InMusicWeTrust@gmail.com</p>
+            </div>
+                
+
         </main>
 
     </div>
     <br>
-
-    <hr>
-
-    <!-- Footer -->
 
     <footer class="distribucion-footer">
 

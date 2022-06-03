@@ -5,14 +5,6 @@
     padding: 0;
 }
 
-.backgroundStyle {
-    /* background-color: #e5e5f7;
-    opacity: 0.9;
-    background: linear-gradient(135deg, #a9a9a955 25%, transparent 25%) -30px 0/ 60px 60px, linear-gradient(225deg, #a9a9a9 25%, transparent 25%) -30px 0/ 60px 60px, linear-gradient(315deg, #a9a9a955 25%, transparent 25%) 0px 0/ 60px 60px, linear-gradient(45deg, #a9a9a9 25%, #e5e5f7 25%) 0px 0/ 60px 60px; */
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='23.09' height='40' viewBox='0 0 34.64101615137755 60' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='rgba(226, 232, 240,1)'/%3E%3Cpath d='M51.96 30L51.96 50L34.64 60L34.64 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.32 30L17.32 50L0 60L0 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.64 0L34.64 20L17.32 30L17.32 10z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.64 60L34.64 80L17.32 90L17.32 70z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.64 60L17.32 50L17.32 30L34.64 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M0 60L-17.32 50L-17.32 30L0 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 30L0 20L0 0L17.32 10z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 90L0 80L0 60L17.32 70z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M32.91 41L32.91 39L34.64 38L34.64 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M-1.73 41L-1.73 39L0 38L0 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M15.59 11L15.59 9L17.32 8L17.32 10z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M15.59 71L15.59 69L17.32 68L17.32 70z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.64 38L36.37 39L36.37 41L34.64 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M0 38L1.73 39L1.73 41L0 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 8L19.05 9L19.05 11L17.32 10z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 68L19.05 69L19.05 71L17.32 70z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M36.37 41L34.64 42L32.91 41L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M1.73 41L0 42L-1.73 41L0 40z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M19.05 11L17.32 12L15.59 11L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M19.05 71L17.32 72L15.59 71L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.64 40.1L34.55 40.05L34.55 39.95L34.64 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M0 40.1L-0.09 40.05L-0.09 39.95L0 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 10.1L17.23 10.05L17.23 9.95L17.32 10z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 70.1L17.23 70.05L17.23 69.95L17.32 70z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M34.73 39.95L34.73 40.05L34.64 40.1L34.64 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M0.09 39.95L0.09 40.05L0 40.1L0 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.41 9.95L17.41 10.05L17.32 10.1L17.32 10z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.41 69.95L17.41 70.05L17.32 70.1L17.32 70z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.55 39.95L34.64 39.9L34.73 39.95L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M-0.09 39.95L0 39.9L0.09 39.95L0 40z' stroke-linejoin='miter' background='true' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.23 9.95L17.32 9.9L17.41 9.95L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.23 69.95L17.32 69.9L17.41 69.95L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(160, 174, 192,1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(203, 213, 224,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
-}
-
-
 /* ----------------------------------------------- Index */
 
 /* header con flexbox */
@@ -259,16 +251,6 @@ ul li a:hover {
 
 /*------------------------------------------- animacion carta grande */
 
-/* @keyframes animacionCarta {
-    0% {
-        left: 0px;
-    }
-
-    100% {
-        left: 700px;
-    }
-} */
-
 .carta {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -373,183 +355,243 @@ footer a:hover {
 }
 
 
-/*----------------------------------------------- pagina "productos" */
+/*---------------------------------- pagina "productos con bootstrap" */
 
+.h2Produ {
+    padding: 90px 0 60px 0;
+}
 
-/* imagen de marcas y h2 */
+.h2Contacto {
+    padding: 60px 0 40px 0;
+}
 
-.divMarcas {
+.img-modificada{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.container-modificado {
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    font-size: 20px;
-    background-color: black;
-    color: gray;
+    margin-bottom: 40px;
 }
 
-/*---------------------------------------- flexbox de productos en cards */
-
-.divPrincipalProductos {
-    margin: 20px 0 13px 0;
-    width: 65%;
+.anchors-modificados {
+    text-decoration:none;
+    color: #8f9296;
 }
 
-.divHijoProductos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    width: 100%;
-    height: 160px;
-    border:#7d8085 solid 0.5px;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
+.card-shadow {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
 }
 
-.divHijoProductos p {
-    font-family: 'Mukta', sans-serif;
-    padding: 0 2px 0 2px;
-    font-size: 23px;
-
+.titulo-carta {
+    margin: 8px 0;
 }
 
-.alinearDatos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 40px;
-    font-size: 25px;
+.card-width {
+    margin-top: 25px;
+    width: 55%;
+    height: 50%;
 }
 
-.alinearCarrito {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px ;
-    width: 22%;
-    height: 80%;
-    border-left: #ccc solid 0.2px;
-}
-
-.containerImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 22%;
-    height: 80%;
-    border-right: #ccc solid 0.2px;
-}
-
-/* -------------------- clase en main que contiene las cards, las alinea al centro de la pantalla */
-
-.alinearCajas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* ----------------------------------------------- grilla de productos */
-
-#divProductos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 160px);
-    grid-row-gap: 20px;
-    grid-template-areas:
-        "placa"
-        "daneNegra"
-        "condenser"
-        "acustica"
-        "grest"
-        "mandolina"
-        "bombo"
-        "violinete"
-        "daneRoja"
-        "consola"
-        "bajo"
-        "guitarBlue";
-    align-items: center;
-    justify-items: center;
-}
-
-#placa {
-    grid-area: placa;
-}
-
-#daneBlack {
-    grid-area: daneNegra;
-}
-
-#mic {
-    grid-area: condenser;
-}
-
-#electro {
-    grid-area: acustica;
-}
-
-#grestch {
-    grid-area: grest;
-}
-
-#mando {
-    grid-area: mandolina;
-}
-
-#pedalBombo {
-    grid-area: bombo;
-}
-
-#violin {
-    grid-area: violinete;
-}
-
-#daneRed {
-    grid-area: daneRoja;
-}
-
-#apolo {
-    grid-area: consola;
-}
-
-#bass {
-    grid-area: bajo;
-}
-
-#alligator {
-    grid-area: guitarBlue;
-}
-
-/*---------------------------------------- botones cambio de pagina */
-
-.btnPasarPag {
+.divBotonCarrito {
     display: flex;
     justify-content: center;
 }
 
-.btnStyle {
-    background-color:#8f9296;
+.estiloBtn {
+    background-color: rgb(0, 0, 0);
     border: none;
-    color: white;
-    padding: 7px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
     border-radius: 4px;
-    margin: 0 5px 0 5px;
 }
 
-.btnStyle:hover {
-    cursor: pointer;
+.estiloBtn:hover {
+    background-color: #36383a;
+}
+
+.estiloBtn:visited {
     color: #000;
 }
 
+.botonContacto {
+    width: 100%;
+}
 
+.cardSizer {
+    width: 21rem;
+}
+
+.cardHorizontal {
+    max-width: 540px;
+}
+
+.centrarCardTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.paginacion nav ul li a {
+    color: #000;
+}
+
+.paginacion:hover nav ul li a {
+    color: #747171;
+    cursor: pointer;
+}
+
+.paginacion nav ul li { 
+    margin: 1px;
+}
+
+.paginacion nav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.inputsMargin {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.btn-size {
+    margin-left: 15px;
+}
+
+.divFlex {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+/* ------------------------------------carrusel de marcas con javaScript */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+    width: 70%;
+    height: 70%;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.imgCarruSize {
+    width: 50%;
+    height: 50%;
+}
+
+.margenDiv {
+    margin: 20px 0 50px 0;
+}
 
 /* ------------------------------------------------ footer */
 
@@ -649,90 +691,24 @@ div h3 {
     font-size: 20px;
 }
 
-/*-------------------------------------------------- form consulta */
-
-#formContacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-start;
-    width: 40%;
-    background-color: white;
-}
-
-#formContacto p {
-    font-family: 'Bebas Neue', cursive;
-}
-
-#iframeContacto {
-    margin-right: 10px;
-    width: 600px;
-    height: 300px;
-}
-
-.detallesForm {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content:space-around;
-    background-color: white;
-    margin-top: 40px;
-}
-
-.detallesForm input[type=text] {
-    width: 80%;
-    padding: 15px 20px;
-    margin: 8px 0 0 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.detallesForm input[type=button] {
-    width: 80%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.detallesForm input[type=button]:hover {
-    background-color: #45a049;
-}
-
-.detallesForm div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 0px;
-}
-
-.bordeForm {
-    border-style: none;
-    width: 100%;
-}
 
 /*------------------------------------------- datos de contacto */
 
 .iconSize {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     padding-right: 10px;
 }
 
 .alinearDatosContacto {
     display: flex;
-    align-items: center;
-    margin-left: 40px;
-    padding: 5px;
+    justify-content: center;
+    margin: 5px;
 }
 
 .alinearDatosContacto p {
     font-family: 'Mukta', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 

@@ -6,11 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Productos</title>
+
+  <!-- CSS only bootstrap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper - Bootstrap-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+
+  <!-- scripts del carrusel de marcas, pagina: "Productos" -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="../javaScript/carrusel.js"></script>
+
+  <!-- libreria AOS -->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- google fonts -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200&family=Source+Sans+Pro:wght@300;400&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="../css/style.css">
 
   <!-- etiqueta para icono de solapa -->
@@ -21,7 +44,7 @@
 <body>
   <header>
     <img src="../assets/img/favIco.png" alt="Logo">
-    <h1 id="productos">Productos</h1>
+    <h1 id="productos" class="h1Style">Productos</h1>
     <nav>
       <!-- Lista desordenada con el menu de navegacion -->
       <ul>
@@ -32,188 +55,358 @@
     </nav>
   </header>
 
-  <a href=""></a>
 
-  <main id="mainProductos" class="alinearCajas backgroundStyle">
-    <div id="divProductos" class="divPrincipalProductos">
-      <div id="placa" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/placa.jpg">
-        </div>           
-        <div class="alinearDatos">
-          <p>Interfaz de audio Esi U22 Xt 20270</p>        
-        </div>
-        <div class="lineaVertical"></div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>      
-          <p>$20.000</p>
-        </div>
-      </div> 
 
-      <div id="daneBlack" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/danelectroNegra.jpg">
+  <main>
+
+    <!-- carrusel -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/imgPortada/carruProductos/portada5.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="alinearDatos">
-          <p>Guitarra Danelectro 59' color negro</p>
+        <div class="carousel-item">
+          <img src="../assets/img/imgPortada/carruProductos/portada2.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$120.380</p>
+        <div class="carousel-item">
+          <img src="../assets/img/imgPortada/carruProductos/portada3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/imgPortada/carruProductos/portada4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/imgPortada/carruProductos/portada1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/imgPortada/carruProductos/portada6.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-
-      <div id="mic" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/comboMic.jpg">
-        </div>  
-        <div class="alinearDatos">
-          <p>Micrófono condenser Artesia Amc10  </p>                                       
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$15.000</p>
-        </div>
-      </div>
-
-      <div id="electro" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/electroacustica.jpg">
-        </div>
-        <div class="alinearDatos">
-          <p>Guitarra acústica vintage honeyburst</p>                              
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$52.267</p>
-        </div>
-      </div>
-
-      <div id="grestch" class="divHijoProductos">
-        <div class="containerImg">
-          <img class="alinearImagen" src="../assets/img/imgPagNuestrosProductos/grestch335.png">
-        </div>
-        <div class="alinearDatos">
-          <p>Guitarra eléctrica Grestch 335 - p90</p>                                     
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$137.000</p>
-        </div>
-      </div>
-
-      <div id="mando" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/mandolinaStagg.jpg">
-        </div>
-        <div class="alinearDatos">
-          <p>Mandolina basswood violinburst</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$21.918</p>
-        </div>
-      </div>
-
-      <div id="pedalBombo" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/pedalBombo.jpg">
-        </div>
-        <div class="alinearDatos">
-          <p>Pedal de bombo Dixon Pp9270d</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$30.160</p>
-        </div>
-      </div>
-
-      <div id="violin" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/violin.jpg">
-        </div>
-        <div class="alinearDatos">
-          <p>Violín Stradella Mv1411 3/4 c/ estuche</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$16.451</p>
-        </div>
-      </div>
-
-      <div id="daneRed" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/danelectroRoja.jpg">
-        </div>
-        <div class="alinearDatos">
-          <p>Guitarra Danelectro 1959 - Cereza</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$120.380</p>
-        </div>
-      </div>
-
-      <div id="apolo" class="divHijoProductos">
-        <div class="containerImg">
-        <img src="../assets/img/imgPagNuestrosProductos/consola.png">
-        </div>
-        <div class="alinearDatos">
-          <p>Consola Apolo professional sound</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$100.000</p>
-        </div>
-      </div>
-
-      <div id="bass" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/bajo1.png">
-        </div>
-        <div class="alinearDatos">
-          <p>Bajo eléctrico Leonard c/ correa</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$32.678</p>
-        </div>
-      </div>
-
-      <div id="alligator" class="divHijoProductos">
-        <div class="containerImg">
-          <img src="../assets/img/imgPagNuestrosProductos/ibanezAzul.png">
-        </div>
-        <div class="alinearDatos">
-          <p>Guitarra eléctrica Fender 67 - Blue</p>                            
-        </div>
-        <div class="alinearCarrito">
-          <a href="#"><img src="../assets/img/carrito-de-compras.png" width="30px" height="30px"></a>
-          <p>$120.380</p>
-        </div>
-      </div>
-      <section>
-        <div class="btnPasarPag">
-          <button class="btnStyle">1</button>
-          <button class="btnStyle">2</button>
-          <button class="btnStyle">Sig >></button>
-        </div>
-      </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+
+    <div class="h2Produ">
+      <h2 data-aos="fade-zoom-in" data-aos-duration="2500">Destacados del mes</h2>
+    </div>
+
+    <!-- Cards destacados del mes -->
+
+    <div class="container-fluid container-modificado row">
+      <div class="card mb-3 col-lg-6 card-shadow cardScale cardHorizontal" data-aos="fade-zoom-in" data-aos-duration="2500">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../assets/img/imgPagNuestrosProductos/bateria.png" class="img-modificada rounded-start">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="titulo-carta">Batería Yahama</h5>
+              <p class="card-text">Yamaha da acceso al mundo de la batería con una gran calidad y estilo, con acabado
+                recubierto, los tambores están equipados con el nuevo modelo que utiliza un solo punto de contacto.</p>
+              <p class="card-text"><small class="text-muted"><a class="anchors-modificados" href="">Agregar a favoritos
+                    &#10084;</a></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 col-lg-6 card-shadow cardScale cardHorizontal" data-aos="fade-zoom-in" data-aos-duration="2500">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../assets/img/imgPagNuestrosProductos/danelectroRoja.jpg" class="img-modificada rounded-start"
+              alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="titulo-carta">Guitarra Danelectro</h5>
+              <p class="card-text">Guitarra Electrica Danelectro Seg263 Cs, trastera de palo rosa con 27 trastes de
+                metal de alto rendimiento, clavijas lockeadas y apta para afinaciones tipo drop. </p>
+              <p class="card-text"><small class="text-muted"><a class="anchors-modificados" href="">Agregar a favoritos &#10084;</a></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- carrusel de marcas -->
+
+    <div class="h2Produ">
+      <h2 data-aos="fade-zoom-in"> años junto a las mejores marcas</h2>
+    </div>
+
+    <div class="container-fluid margenDiv">
+
+      <section class="customer-logos slider">
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo1.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo2.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo3.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo4.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo5.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo6.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo7.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo8.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo9.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo10.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo11.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo12.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo13.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo14.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo15.png">
+        </div>
+
+        <div class="slide">
+          <img src="../assets/img/logosCarrusel/Logo16.png">
+        </div>
+
+      </section>
+
+      <!-- cards de productos -->
+
+      <div class="h2Produ">
+        <h2 data-aos="fade-zoom-in" data-aos-duration="2500">todo el año repleto de ofertas!</h2>
+      </div>
+
+      <div class="container-fluid container-modificado row">
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/comboMic.jpg" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Combo microfono Samson</h5>
+            </div>
+            <p class="card-text">Pack micrófono Samson, Vp10xmi R21s soporte Mk10 pipeta, cable tipo canon, protector de cabezal.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/electroacustica.jpg"
+            class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Guitarra electroacústica</h5>
+            </div>
+            <p class="card-text">Guitarra electroacústica Fender malibu especial funda deluxe ll. Madera principal mahogany.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/pedal.png" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Pedal de distorsión</h5>
+            </div>
+            <p class="card-text">Pedal de efectos para guitarra 26 dB Booster, Regulador de nivel para mayor alimentación a la entrada de los amplificadores</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/danelectroNegra.jpg" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Guitarra Danelectro</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/violin.jpg" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Violin 1918</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/tacho.png" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Redoblante Bonham</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/bajo1.png" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Bajo Fender Precision</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/grestch335.png" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Guitarra Grestch 335</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/pianoCola.jpg" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Piano de cola Yamaha</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/mandolinaStagg.jpg" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Mandolina Fender</h5>
+            </div> 
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/consola.png" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Consola mix All in One</h5>
+            </div> 
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-shadow cardScale cardSizer">
+          <img src="../assets/img/imgPagNuestrosProductos/ibanez1.png" class="card-img-top card-width d-block mx-auto">
+          <div class="card-body">
+            <div class="centrarCardTitle">
+              <h5 class="card-title">Guitarra Ibanez</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <div class="divBotonCarrito">
+              <a class="btn btn-primary estiloBtn">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </main>
 
-  <!-- <section>
-
-    <div class="divMarcas">
-      <div>
-        <h2>Marcas con las que trabajamos</h2>
-      </div>
-      <div>
-        <img id="imgMarcas" src="../assets/img/brands.png">
-      </div>
-    </div>
-
-  </section> -->
+  <div class="paginacion">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link"aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link">1</a></li>
+        <li class="page-item"><a class="page-link">2</a></li>
+        <li class="page-item"><a class="page-link">3</a></li>
+        <li class="page-item">
+          <a class="page-link" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
   <!-- Footer -->
 
@@ -230,6 +423,11 @@
     </div>
 
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
