@@ -468,6 +468,18 @@ footer a:hover {
     margin-right: 20px;
 }
 
+.precios {
+    font-size: 18px;
+}
+
+.divFlexCarritoPrecio {
+    margin-bottom: -8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
 
 /* ------------------------------------carrusel de marcas con javaScript */
 
